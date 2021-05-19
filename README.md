@@ -75,3 +75,48 @@ print(student_1["complete_lessons_names"])
 # display only OPERATORS FROM THE LIST INSIDE DICTIONARY -
 print(student_1.keys())
 print(student_1.values())
+
+
+#what are dictionaries?  
+#are structured as KEY = 
+#VALUE could be string, i
+#Syntax {}               
+                         
+student_1 = {            
+    "name": "Munira",    
+    "key": "value",      
+    "stream": "Cyber Secu
+    "completed_lessons": 
+    "complete_lessons_nam
+}                        
+                         
+print(student_1)         
+print(student_1["name"]) 
+print(student_1["stream"]
+print(student_1["complete
+# display only OPERATORS 
+print(student_1.keys())  
+print(student_1.values())
+                         
+                         
+#TASKS                   
+                         
+print(student_1["complete
+                         
+name = 'Munira'          
+age = 23                 
+born = 98                
+print('OMG', name, 'you a
+                         
+name = input("what is you
+age = input("what is your
+                         
+born = 2021 - int(age)   
+print('OMG', name, 'you a
+                         
+year_born = input("is thi
+if year_born == "no":    
+    born += 1            
+    print('OMG', name, 'y
+else:                    
+    print("thank you")   
