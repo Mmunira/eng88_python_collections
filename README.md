@@ -39,3 +39,16 @@ print(shopping_list)
 shopping_list.pop()
 print(shopping_list)
 
+# Tuples are IMMUTABLE
+# Syntax ()
+# use cases
+
+essentials = ("eggs", "milk", "bread")
+              #   0       1        2
+print(essentials)
+print(type(essentials))
+
+# replace bread with yogurt
+
+essentials[2] = "yogurt"
+print(essentials)
