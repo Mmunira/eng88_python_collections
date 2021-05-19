@@ -1,13 +1,3 @@
-# python Data collection
-
-
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-
-## What are Data collections
-
 # Lists
 # Syntax ["London"]
 # CRUD CREATE READ UPDATE DELETE
@@ -36,3 +26,5 @@ print(shopping_list)
 # if we want to remove the last item from a list we use pop
 shopping_list.pop()
 print(shopping_list)
+
+
