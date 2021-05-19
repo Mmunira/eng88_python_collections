@@ -1,7 +1,10 @@
 # Lists
 # Syntax ["London"]
 # CRUD CREATE READ UPDATE DELETE
-#
+
+# WHAT ARE LISTS?
+# LISTS ARE MUTABLE
+
 # shopping_list = ["juice", "strawberries", "yogurt", "chicken", "raspberries", "butter"]
 #               #      0           1             2          3            4           5
 # print(shopping_list)
