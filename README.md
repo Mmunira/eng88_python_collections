@@ -97,26 +97,25 @@ print(student_1["complete
 # display only OPERATORS 
 print(student_1.keys())  
 print(student_1.values())
+
+# Sets are data collection but the difference is that they are unordered
+#Syntax name = {}
+
+car_parts = {"wheels", "doors", "engine"}
+print(car_parts)
+
+# Can we add any new parts?
+car_parts. add("windows")
+print(car_parts)
+
+# Can we remove an item
+car_parts.discard("doors")
+print(car_parts)
+
+# Frozen sets they are like Tuples
+frozen_set = ([1,3,5,6])
+print(frozen_set)
+
+
                          
                          
-#TASKS                   
-                         
-print(student_1["complete
-                         
-name = 'Munira'          
-age = 23                 
-born = 98                
-print('OMG', name, 'you a
-                         
-name = input("what is you
-age = input("what is your
-                         
-born = 2021 - int(age)   
-print('OMG', name, 'you a
-                         
-year_born = input("is thi
-if year_born == "no":    
-    born += 1            
-    print('OMG', name, 'y
-else:                    
-    print("thank you")   
