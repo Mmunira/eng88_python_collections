@@ -82,21 +82,22 @@ print(student_1.values())
 #VALUE could be string, i
 #Syntax {}               
                          
-student_1 = {            
-    "name": "Munira",    
-    "key": "value",      
-    "stream": "Cyber Secu
-    "completed_lessons": 
-    "complete_lessons_nam
+# student_1 = {
+#     "name": "Munira",
+#     "key": "value",
+#     "stream": "Cyber Security", # string
+#     "completed_lessons": 3, # int
+#     "complete_lessons_names": ["variables", "operators", "data_collections"]
 }                        
                          
-print(student_1)         
-print(student_1["name"]) 
-print(student_1["stream"]
-print(student_1["complete
-# display only OPERATORS 
-print(student_1.keys())  
-print(student_1.values())
+# print(student_1)
+# print(student_1["name"])
+# print(student_1["stream"])
+# print(student_1["complete_lessons_names"])
+# print(student_1["complete_lessons_names"][1]) # Name of the dictionaries followed by the key then then index of the value you want to retrieve
+# # display only OPERATORS FROM THE LIST INSIDE DICTIONARY -
+# print(student_1.keys())
+# print(student_1.values())
 
 # Sets are data collection but the difference is that they are unordered
 #Syntax name = {}
